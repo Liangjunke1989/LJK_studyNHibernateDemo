@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJK_CSharpLinkMySQLDemo_20210129", "LJK_CSharpLinkMySQLDemo_20210129.csproj", "{42BE1193-414A-4110-940A-E1C47E743A95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJK_NHibernateLinkMySQLDemo_20210202", "LJK_NHibernateLinkMySQLDemo_20210202\LJK_NHibernateLinkMySQLDemo_20210202.csproj", "{A471276A-7605-47D7-B1F6-D0E837AC20BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{42BE1193-414A-4110-940A-E1C47E743A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42BE1193-414A-4110-940A-E1C47E743A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42BE1193-414A-4110-940A-E1C47E743A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A471276A-7605-47D7-B1F6-D0E837AC20BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A471276A-7605-47D7-B1F6-D0E837AC20BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A471276A-7605-47D7-B1F6-D0E837AC20BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A471276A-7605-47D7-B1F6-D0E837AC20BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -6,8 +6,8 @@ namespace LJK_CSharpLinkMySQLDemo_20210129
 {
     public static class LjkSqlHelper
     {
-    //params:可变参数，目的是省略了手动构造数组的过程，直接指定对象，编译器会帮助我们构造数组，
-    //并将对象加入数组中，传递过来。
+        //params:可变参数，目的是省略了手动构造数组的过程，直接指定对象，编译器会帮助我们构造数组，
+        //并将对象加入数组中，传递过来。
     
     #region 返回要连接的sql语句
     public static string GetConnectSqliteString()
@@ -120,6 +120,5 @@ namespace LJK_CSharpLinkMySQLDemo_20210129
     }
     #endregion
     
-     
     }
 }
