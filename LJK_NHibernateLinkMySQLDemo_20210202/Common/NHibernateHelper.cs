@@ -3,17 +3,16 @@ using NHibernate.Cfg;
 
 namespace LJK_NHibernateLinkMySQLDemo_20210202.Common
 {
-    public class NHibernateHelper
+    public static class NHibernateHelper
     {
         private static ISessionFactory _sessionFactory;
- 
         private static ISessionFactory SessionFactory
         {
             get
             {
                 if(_sessionFactory == null)
                 {
-                    var configuration = new Configuration();
+                    var configuration = new Configuration();//创建配置对象
                     configuration.Configure();
                     //configuration.AddAssembly(typeof(Product).Assembly);
                     _sessionFactory = configuration.BuildSessionFactory();
