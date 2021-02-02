@@ -121,6 +121,8 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Common\NHibernateHelper.cs" />
+        <Compile Include="Manager\IUserManager.cs" />
+        <Compile Include="Manager\UserManager.cs" />
         <Compile Include="Model\User.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
